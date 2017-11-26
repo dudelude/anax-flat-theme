@@ -1,0 +1,29 @@
+@import "typography-font-families.less";
+@import "typography-sizes.less";
+@import "typography-mixins.less";
+@import "typography-defaults.less";
+
+.site-header,
+.site-logo-text,
+.outer-wrap-flash,
+.inner-wrap-header,
+.inner-wrap-breadcrumb,
+.inner-wrap-main,
+.inner-wrap-after-main,
+.inner-wrap-footer {
+    .font();
+    .typographyHeadings();
+    .typographyTextElements();
+    .typographyCodeElements();
+    .typographyListElements();
+    .typographyTableElements();
+    .typographyOtherElements();
+    //background-image: url(../img/horisontal-grid-24.png);
+}
+
+.vgrid, .route-typography {
+    background-image: url(../img/horisontal-grid-24.png);
+}
+
+@fontFamilyHeadings: @fontFamilyGaramond;
+@fontFamilyBody: @fontFamilyTimes;
