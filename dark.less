@@ -3,33 +3,35 @@
 */
 @import url(base.less);
 
-@back-color: #f4f8f9;
+@back-color: #1B2231;
 
-@nav-color: #c6c9ca;
+@nav-color: #5C6D95;
 
-@nav-color1: #e5eaed;
+@logo-color: #37435E;
 
-@nav-color2: #a0a4a5;
+@header: #1D2E55;
 
-@logo-color: #f4f8f9;
-
-@header: #c6c9ca;
+@vit: #ffffff;
 
 html {
     background-color: @back-color;
 }
 
 .rm-desktop li {
-    color: @nav-color2;
-    background-color: @nav-color1;
+    color: @logo-color;
+    background-color: @nav-color;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: @vit;
 }
 
 .site-logo-text a {
-    color: @logo-color;
+    color: @nav-color;
 }
 
 .inner-wrap-breadcrumb {
-    background-color: @logo-color;
+    background-color: @nav-color;
 }
 
 .main {
@@ -45,11 +47,11 @@ html {
 }
 
 .content {
-    background-color: @nav-color1;
+    background-color: @header;
 }
 
 .inner-wrap-footer {
-    background-color: @nav-color;
+    background-color: @header;
 }
 
 //.wrap-all {

@@ -3,25 +3,37 @@
 */
 @import url(base.less);
 
-@back-color: #f4f8f9;
+@back-color: #E3D76C;
 
-@nav-color: #c6c9ca;
+@nav-color: #FFB37B;
 
-@nav-color1: #e5eaed;
+@logo-color: #E39F6C;
 
-@nav-color2: #a0a4a5;
+@header: #53619A;
 
-@logo-color: #f4f8f9;
+@vit: #ffffff;
 
-@header: #c6c9ca;
+@naviunder: #363F63;
 
 html {
     background-color: @back-color;
 }
 
 .rm-desktop li {
-    color: @nav-color2;
-    background-color: @nav-color1;
+    color: @logo-color;
+    background-color: @naviunder;
+}
+
+p {
+    color: @vit;
+}
+
+h1, h2, h3 {
+    color: @header;
+}
+
+h4 {
+    color: @logo-color;
 }
 
 .site-logo-text a {
@@ -29,7 +41,7 @@ html {
 }
 
 .inner-wrap-breadcrumb {
-    background-color: @logo-color;
+    background-color: @nav-color;
 }
 
 .main {
@@ -45,11 +57,11 @@ html {
 }
 
 .content {
-    background-color: @nav-color1;
+    background-color: @logo-color;
 }
 
 .inner-wrap-footer {
-    background-color: @nav-color;
+    background-color: @header;
 }
 
 //.wrap-all {
